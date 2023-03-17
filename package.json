@@ -1,0 +1,35 @@
+{
+  "name": "nomad-openapi-ts",
+  "version": "1.4.0-beta.1",
+  "description": "TypeScript client generated from https://github.com/hashicorp/nomad-openapi",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "scripts": {
+    "build": "tsc",
+    "generate": "node scripts/generate.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morantron/nomad-openapi-ts.git"
+  },
+  "keywords": [
+    "nomad",
+    "typescript",
+    "openapi",
+    "client"
+  ],
+  "author": "Jorge Morante",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/morantron/nomad-openapi-ts/issues"
+  },
+  "homepage": "https://github.com/morantron/nomad-openapi-ts#readme",
+  "devDependencies": {
+    "openapi-typescript-codegen": "0.23.0",
+    "prepend-file": "^2.0.1",
+    "replace-in-file": "^6.3.5",
+    "shelljs": "^0.8.5",
+    "typescript": "4.9.3"
+  }
+}
